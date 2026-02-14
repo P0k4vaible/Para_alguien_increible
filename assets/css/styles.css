@@ -345,6 +345,7 @@ img {
   .home__description{
     padding: 0;
   }
+
 }
 
 @media screen and (max-width:  400px) and (max-height: 650px){
@@ -367,7 +368,11 @@ img {
   .home__container{
    grid-template-columns: 400px;
    justify-content: center;
-  }}
+  }
+  .home__img-5{
+    right: -3.5rem;
+  }
+}
 
 
 /* For large devices */
@@ -376,6 +381,7 @@ img {
     margin-inline: auto;
 
   }
+
   .nav{
     height: calc(var(--header-height) + 2rem);
   }
@@ -453,7 +459,7 @@ img {
     padding-top: 10rem;
   }
   .home__img-5{
-    right: -3.5rem;
+    right: -3.2rem;
   }
 }
 
@@ -461,4 +467,7 @@ img {
   .home__container{
     padding-top: 15rem;
   }
+
+  
 }
+
